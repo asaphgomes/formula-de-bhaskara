@@ -18,7 +18,7 @@ elif delta < 0:
   print("\nEsta equação não possui raízes reais!")
 elif delta == 0:
   x = (- b + math.sqrt(delta)) / (2 * a)
-  print(f"\nA única raíz é {x}")
+  print(f"\nA única raíz real é {x}")
 else:
   x1 = (- b + math.sqrt(delta)) / (2 * a)
   x2 = (- b - math.sqrt(delta)) / (2 * a)
